@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62.5rem;
+  font-size: 62.5%;
 }
 
 body {
@@ -20,17 +20,17 @@ body {
 /* common */
 
 .inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
   width: 100%;
   min-height: 100px;
   margin-bottom: 30px;
   
   background: #ccc;
-
-  font-size: 30px;
+  
+  font-size: 3rem;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* Header */
