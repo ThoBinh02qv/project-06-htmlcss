@@ -1,0 +1,70 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+@media screen and (max-width: 767px) {
+
+  .nav-list {
+    display: none;
+  }
+  .name-mail {
+    display: none;
+  }
+
+  .avt-profile {
+    left: 0;
+  }
+
+  .avt-profile {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: auto;
+    margin: auto;
+  }
+
+  .header__inner {
+    flex-direction: row-reverse;
+  }
+
+  .email-img {
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .nav-list {
+    display: none;
+  }
+  .name-mail {
+    display: none;
+  }
+
+  .avt-profile {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: auto;
+    margin: auto;
+  }
+
+  .header__inner {
+    flex-direction: row-reverse;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header .container,
+  footer .container {
+    max-width: 1152px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header .container,
+  footer .container {
+    max-width: 1330px;
+  }
+}

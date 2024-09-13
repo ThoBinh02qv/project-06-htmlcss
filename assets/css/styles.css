@@ -16,21 +16,83 @@ body {
   font-weight: 400;
 }
 
-
 /* common */
 
 .inner {
-
   width: 100%;
-  min-height: 100px;
-  margin-bottom: 30px;
-  
+  margin-bottom: 140px;
+
   background: #ccc;
-  
-  font-size: 3rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 /* Header */
+
+.header__inner {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.avt-profile {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.gender {
+  width: 100%;
+  object-fit: cover;
+}
+
+.icon-email {
+  width: 46px;
+  height: 46px;
+  position: relative;
+  border: 1px solid #5d3bee;
+  border-radius: 50%;
+}
+
+.email-img {
+  width: 24px;
+  height: 16px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.email-info {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.name-mail {
+  color: #080415;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+
+.nav-list ul {
+  display: flex;
+}
+
+.nav-list__header {
+  padding: 10px 21px;
+  display: block;
+  color: #51586a;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-decoration: none;
+}

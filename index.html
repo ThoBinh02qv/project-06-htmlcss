@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="assets/css/grid.css.css" />
     <!-- styles/css -->
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Responsive -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
     <!-- font-styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -103,9 +105,31 @@
   </head>
 
   <body>
-    <header class="header">
+    <!--================= PC/ Tablet ======================-->
+    <header class="header header__fixed">
       <div class="container">
-        <div class="inner">Header</div>
+        <div class="header__inner inner">
+          <div class="email-info">
+            <figure class="icon-email">
+              <img src="./assets/img/phong bì.png" alt="" class="email-img" />
+            </figure>
+            <a href="mailto:ntb@laptrinhdinhnhat" class="name-mail"
+              >ntb@laptrinhdinhnhat
+            </a>
+          </div>
+
+          <figure class="avt-profile">
+            <img src="./assets/img/Logo.png" alt="" class="gender" />
+          </figure>
+          <div class="nav-list">
+            <ul>
+              <li><a href="#!" class="nav-list__header">Projects</a></li>
+              <li><a href="#!" class="nav-list__header">Journey</a></li>
+              <li><a href="#!" class="nav-list__header">Service</a></li>
+              <li><a href="#!" class="nav-list__header">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -114,11 +138,11 @@
       <section class="Hero">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-12">
               <div class="inner">Hero-media</div>
             </div>
 
-            <section class="col-lg-6">
+            <section class="col-lg-6 col-md-6 col-12">
               <div class="inner">Hero-content</div>
             </section>
           </div>
@@ -129,7 +153,7 @@
       <div class="branch">
         <div class="container">
           <div class="row">
-            <section class="col-lg-12">
+            <section class="col-lg-12 col-md-12 col-12">
               <div class="inner">Branch</div>
             </section>
           </div>
@@ -140,18 +164,18 @@
       <div class="spec-section">
         <div class="container">
           <div class="row">
-            <section class="col-lg-12">
+            <section class="col-lg-12 col-md-12 col-12">
               <div class="inner">Spec-section</div>
             </section>
           </div>
           <div class="row">
-            <article class="col-lg-4">
+            <article class="col-lg-4 col-md-6 col-12">
               <div class="inner">spec-section-item</div>
             </article>
-            <article class="col-lg-4">
+            <article class="col-lg-4 col-md-6 col-12">
               <div class="inner">spec-section-item</div>
             </article>
-            <article class="col-lg-4">
+            <article class="col-lg-4 col-md-6 col-12">
               <div class="inner">spec-section-item</div>
             </article>
           </div>
@@ -162,29 +186,31 @@
       <div class="project-recent">
         <div class="container">
           <section class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-5 col-12">
               <div class="inner">Header-project</div>
             </div>
-            <div class="col-lg-5 offset-lg-1">
+            <div class="col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-12">
               <div class="inner">Header-project</div>
             </div>
           </section>
           <div class="row">
-            <article class="col-lg-6">
+            <article class="col-lg-6 col-md-6 col-12">
               <div class="inner">Recent-project</div>
             </article>
-            <article class="col-lg-6">
+            <article class="col-lg-6 col-md-6 col-12">
               <div class="inner">Recent-project</div>
             </article>
-            <article class="col-lg-6">
+            <article class="col-lg-6 col-md-6 col-12">
               <div class="inner">Recent-project</div>
             </article>
-            <article class="col-lg-6">
+            <article class="col-lg-6 col-md-6 col-12">
               <div class="inner">Recent-project</div>
             </article>
           </div>
           <div class="row">
-            <div class="col-lg-2 offset-lg-5">
+            <div
+              class="col-lg-2 offset-lg-5 col-md-2 offset-md-5 col-sm-2 offset-sm-5"
+            >
               <div class="inner">All Projects</div>
             </div>
           </div>
@@ -195,18 +221,18 @@
       <div class="inter-dsg">
         <div class="container">
           <div class="row">
-            <section class="col-lg-12">
+            <section class="col-lg-12 col-md-12 col-12">
               <div class="inner">Inter-dsg</div>
             </section>
           </div>
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
               <div class="inner">Inter-dsg-item</div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
               <div class="inner">Inter-dsg-item</div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
               <div class="inner">Inter-dsg-item</div>
             </div>
           </div>
@@ -223,14 +249,24 @@
       <div class="people-says">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12"><div class="inner">People-says</div></div>
-            <div class="col-lg-12"><div class="inner">People-says</div></div>
-            <div class="col-lg-12"><div class="inner">People-says</div></div>
-            <div class="col-lg-12"><div class="inner">People-says</div></div>
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="inner">People-says</div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="inner">People-says</div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="inner">People-says</div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="inner">People-says</div>
+            </div>
           </div>
           <!-- dots -->
           <div class="row">
-            <div class="col-lg-2 offset-lg-5">
+            <div
+              class="col-lg-2 offset-lg-5 col-md-2 offset-md-5 col-sm-2 offset-sm-5"
+            >
               <div class="inner">
                 <div class="pepple-item">dots</div>
                 <div class="pepple-item"></div>
@@ -246,10 +282,12 @@
       <div class="qst-ask">
         <div class="container">
           <div class="row">
-            <div class="inner"><div class="col-lg-6">Ask</div></div>
+            <div class="inner">
+              <div class="col-lg-6 col-md-6 col-12">Ask</div>
+            </div>
           </div>
           <div class="row">
-            <div class="col-lg-11">
+            <div class="col-lg-11 col-12">
               <div class="inner">
                 <input type="checkbox" name="" id="ask" />
                 <label for="ask">What is your hourly rate?</label>
@@ -263,18 +301,18 @@
       <div class="atmosphere-section">
         <div class="container">
           <div class="row">
-            <section class="col-lg-12">
+            <section class="col-lg-12 col-12">
               <div class="inner">atmosphere-section</div>
             </section>
           </div>
           <div class="row">
-            <article class="col-lg-4">
+            <article class="col-lg-4 col-md-6 col-12">
               <div class="inner">atmosphere-section-item</div>
             </article>
-            <article class="col-lg-4">
+            <article class="col-lg-4 col-md-6 col-12">
               <div class="inner">atmosphere-section-item</div>
             </article>
-            <article class="col-lg-4">
+            <article class="col-lg-4 col-md-6 col-12">
               <div class="inner">atmosphere-section-item</div>
             </article>
           </div>
