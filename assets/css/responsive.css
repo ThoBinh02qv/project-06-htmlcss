@@ -26,8 +26,17 @@
     flex-direction: row-reverse;
   }
 
-  .email-img {
+  .menu-mobie {
+    width: 46px;
+    height: 46px;
+    border: 1px solid #5d3bee;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 46px;
   }
+  .gender {
+    margin-left: -25px;
+}
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -51,6 +60,18 @@
   .header__inner {
     flex-direction: row-reverse;
   }
+
+  .menu-mobie {
+    width: 46px;
+    height: 46px;
+    border: 1px solid #5d3bee;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 46px;
+  }
+  .gender {
+    margin-left: -25px;
+}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -58,6 +79,9 @@
   .header .container,
   footer .container {
     max-width: 1152px;
+  }
+  .menu-mobie {
+    display: none;
   }
 }
 

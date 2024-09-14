@@ -25,14 +25,18 @@ body {
   background: #ccc;
 }
 /* Header */
+.header {
+  background: #fbfaff;
+}
 
 .header__inner {
-  margin-top: 20px;
+  padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
   position: relative;
+  padding: 20px 0;
 }
 
 .avt-profile {
@@ -83,7 +87,6 @@ body {
   line-height: 30px;
 }
 
-
 .nav-list ul {
   display: flex;
 }
@@ -95,4 +98,28 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   text-decoration: none;
+}
+
+/* Hero */
+
+.hero__media {
+  width: 514px;
+  height: 705px;
+  position: relative;
+}
+
+.hero__image {
+  width: 100%;
+  object-fit: cover;
+  z-index: 2;
+  position: relative;
+}
+
+.hero__decor {
+  position: absolute;
+  width: 174.31%;
+  height: 111.34%;
+  z-index: ;
+  left: -240px;
+  top: -77px;
 }
