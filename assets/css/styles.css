@@ -102,9 +102,12 @@ body {
 
 /* Hero */
 
+.hero {
+  overflow: hidden;
+}
+
 .hero__media {
-  width: 514px;
-  height: 705px;
+  height: 100%;
   position: relative;
 }
 
@@ -117,9 +120,9 @@ body {
 
 .hero__decor {
   position: absolute;
-  width: 174.31%;
-  height: 111.34%;
-  z-index: ;
-  left: -240px;
-  top: -77px;
+  width: 184.13%;
+  height: 152.18%;
+  bottom: -20.25%;
+  left: -46.36%;
 }
+
