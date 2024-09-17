@@ -18,6 +18,14 @@ body {
 
 /* common */
 
+.section-heading-lv3 {
+    color: #080415;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 1.25; /* 125% */
+    letter-spacing: -1.28px;
+}
+
 .btn {
     background: #5d3bee;
     max-width: 170px;
@@ -131,7 +139,7 @@ body {
 /* Hero */
 
 .hero__inner {
-  position: relative;
+    position: relative;
 }
 
 .hero__media {
@@ -149,15 +157,14 @@ body {
 }
 
 .hero__decor_img {
-  position: absolute;
-  width: 184.13%;
-  height: 152.18%;
-  bottom: -49%;
-  left: -44.36%;
+    position: absolute;
+    width: 184.13%;
+    height: 152.18%;
+    bottom: -49%;
+    left: -44.36%;
 }
 
 .hero__decor {
-
     /* position: absolute; */
     /* width: 184.13%;
     height: 152.18%;
@@ -165,15 +172,13 @@ body {
     left: -51.36%; */
 }
 
-
-
 /* Hero-content */
 .hero-content {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: center;
-  height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    height: 100%;
 }
 .hero__desc {
     margin-top: 20px;
@@ -210,24 +215,71 @@ body {
 }
 
 .hero-content-media {
-  display: flex;
-  column-gap: 20px;
-  align-items: center;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
 }
 
 .media-icon {
-width: 40px;
-height: 40px;
-border-radius: 50%;
-border: 1px solid #080415;
-position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #080415;
+    position: relative;
 }
 
 .media-icon-img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* spec-section */
+.spec-heading,
+.spec-desc {
+text-align: center;
+}
+
+.spec-desc {
+    margin-top: 20px;
+    width: 534px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spec-list {
+    margin-top: 60px;
+}
+
+.spec-item {
+    height: 306px;
+    background: #FBFAFF;
+    padding: 33px 43px;
+}
+
+.spec__heading {
+    margin-top: 22px;
+}
+
+.spec-item__desc {
+    margin-top: 15px;
+    width: 285px;
+}
+
+.spec-icon {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    border: 1px solid #080415;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spec-img {
+
 }
