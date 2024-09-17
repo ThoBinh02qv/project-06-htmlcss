@@ -72,6 +72,11 @@
   .gender {
     margin-left: -25px;
 }
+.hero__media,
+.hero__content {
+  scale: 0.7;
+}
+
 }
 
 /* Large devices (desktops, 992px and up) */
