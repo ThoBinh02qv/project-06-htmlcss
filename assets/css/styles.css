@@ -517,6 +517,13 @@ body {
 .feedback {
   margin-top: 150px;
   text-align: center;
+
+}
+
+.feedback .container {
+  padding-bottom: 74px;
+  position: relative;
+  height: 100%;
 }
 
 .feedback-desc-level-1 {
@@ -591,6 +598,34 @@ line-height: 1.33; /* 133.333% */
 }
 
 .feedback__dot--active {
-
+width: 15px;
+height: 15px;
+background: #5D3BEE;
+opacity: initial;
+border: 3px solid #fff;
+outline: 2px solid #5D3BEE;
 }
 
+.feedback__decor__1 {
+  position: absolute;
+  bottom: 0;
+  left: -198px;
+}
+
+.feedback__decor__2 {
+  position: absolute;
+  bottom: 0;
+  right: -208px;
+}
+
+/* Questions-Ask */
+
+.qst-ask {
+  margin-top: 95px;
+  margin-bottom: 160px;
+}
+
+.qst__inner {
+  display: flex;
+  justify-content: space-between;
+} 
