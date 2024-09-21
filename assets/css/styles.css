@@ -321,7 +321,7 @@ body {
 .spec-item {
   height: 306px;
   background: #fbfaff;
-  padding: 33px 43px;
+  padding: 33px 30px;
 }
 
 .spec__heading {
@@ -330,7 +330,6 @@ body {
 
 .spec-item__desc {
   margin-top: 15px;
-  width: 285px;
 }
 
 .spec-icon {
@@ -517,7 +516,6 @@ body {
 .feedback {
   margin-top: 150px;
   text-align: center;
-
 }
 
 .feedback .container {
@@ -567,9 +565,9 @@ body {
 .feedback-author {
   margin-left: 15px;
   color: #080415;
-font-size: 3rem;
-font-weight: 500;
-line-height: 1.33; /* 133.333% */
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.33; /* 133.333% */
 }
 
 .feedback-name__author__desc {
@@ -598,12 +596,12 @@ line-height: 1.33; /* 133.333% */
 }
 
 .feedback__dot--active {
-width: 15px;
-height: 15px;
-background: #5D3BEE;
-opacity: initial;
-border: 3px solid #fff;
-outline: 2px solid #5D3BEE;
+  width: 15px;
+  height: 15px;
+  background: #5d3bee;
+  opacity: initial;
+  border: 3px solid #fff;
+  outline: 2px solid #5d3bee;
 }
 
 .feedback__decor__1 {
@@ -626,6 +624,79 @@ outline: 2px solid #5D3BEE;
 }
 
 .qst__inner {
+  margin-top: 80px;
+}
+
+.qst-label {
   display: flex;
   justify-content: space-between;
-} 
+  align-items: center;
+  padding-bottom: 21px;
+  border-bottom: 2px solid #08182f;
+}
+
+.qst-label__open {
+  margin-left: 22px;
+}
+
+.questions {
+  color: #080415;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -1.28px;
+}
+
+.questions__checkbox {
+  opacity: 0;
+}
+
+.questions__desc {
+  width: 487px;
+  margin-top: 23px;
+  color: #51586a;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.667;
+}
+
+.questions__checkbox:not(:checked) + .questions__desc {
+  display: none;
+}
+
+.qst-label:focus-within {
+  border-bottom: 2px solid #5d3bee;
+}
+
+.qst-label:focus-within .questions {
+  color: #5d3bee;
+}
+
+.qst-label:focus-within .qst__open {
+  visibility: hidden;
+}
+
+.question__close__open {
+  position: relative;
+}
+
+.qst__open {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  user-select: none;
+}
+
+.qst__close {
+  user-select: none;
+}
+
+
+/* My atmosphere */
+
+.atmosphere-section {
+  margin-top: 160px;
+}
