@@ -672,12 +672,24 @@ body {
   color: #5d3bee;
 }
 
+
 .qst-label:focus-within .qst__open {
   visibility: hidden;
 }
 
+
+
 .question__close__open {
   position: relative;
+}
+
+.qst__close {
+  opacity: 0;
+}
+
+
+.qst-label:focus-within  .qst__close{
+  opacity: 100%;
 }
 
 .qst__open {
