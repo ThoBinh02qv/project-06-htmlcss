@@ -77,19 +77,20 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .header .container,
-  footer .container {
+  .header .container, {
     max-width: 1152px;
   }
-  .menu-mobie {
+  .menu-mobie,
+  .footer__menu-mobie {
     display: none;
   }
+
+  
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .header .container,
-  footer .container {
+  .header .container, {
     max-width: 1330px;
   }
 }
